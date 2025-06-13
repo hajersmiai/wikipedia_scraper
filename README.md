@@ -35,6 +35,7 @@ You can run either version depending on your preference for procedural or OOP st
 - `beautifulsoup4` library
 
 Install dependencies with:
+
     pip install requests beautifulsoup4
     
 ## How to Use
