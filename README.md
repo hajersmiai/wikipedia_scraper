@@ -37,10 +37,10 @@ You can run either version depending on your preference for procedural or OOP st
 Install dependencies with:
 
     pip install requests beautifulsoup4
- 
----
 
-# How to Use
+    
+## How to Use
+
 
 - Clone or download this repository.
 
@@ -100,4 +100,3 @@ Install dependencies with:
 - Implement logging and error handling with log files.
 
 - Use multi-threading or async requests for faster scraping.
-
