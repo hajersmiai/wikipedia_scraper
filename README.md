@@ -40,50 +40,50 @@ Install dependencies with:
 ```bash
 pip install requests beautifulsoup4
 
-How to Use
+## How to Use
 
-    Clone or download this repository.
+- Clone or download this repository.
 
-    Choose the version you want to run:
+- Choose the version you want to run:
 
-        Simple version:
+    Simple version:
 
-            python leaders_scraper.py
+        python leaders_scraper.py
 
-        Object-Oriented version:
+    Object-Oriented version:
 
-            python leaders_scraper_OOP.py
+        python leaders_scraper_OOP.py
 
-    The script will:
+- The script will:
 
-        Check the API status.
+    Check the API status.
 
-        Retrieve the list of countries.
+    Retrieve the list of countries.
 
-        For each country, get its leaders from the API.
+    For each country, get its leaders from the API.
 
-        Scrape Wikipedia for a short bio paragraph about each leader.
+    Scrape Wikipedia for a short bio paragraph about each leader.
 
-        Save all data to leaders.json.
+    Save all data to leaders.json.
 
-        Print the list of countries found in the saved data.
+    Print the list of countries found in the saved data.
 
-Code Structure
+## Code Structure
 
-    Functions & Methods:
+- Functions & Methods:
 
-        get_leaders() / get_all_leaders(): Fetch countries and leaders, enrich with Wikipedia summaries.
+    get_leaders() / get_all_leaders(): Fetch countries and leaders, enrich with Wikipedia summaries.
 
-        get_first_paragraph(): Scrape the first informative paragraph from a Wikipedia page.
+    get_first_paragraph(): Scrape the first informative paragraph from a Wikipedia page.
 
-        save(): Save the collected data to a JSON file.
+    save(): Save the collected data to a JSON file.
 
-        read(): Read and print the saved JSON data.
+    read(): Read and print the saved JSON data.
 
     Classes:
     In the OOP version, all related functions are encapsulated in a LeaderScraper class.
 
-Notes
+- Notes
 
     Wikipedia scraping uses CSS selectors to extract the first paragraph from the main content.
 
@@ -91,15 +91,15 @@ Notes
 
     A persistent requests.Session() is used for Wikipedia requests to improve efficiency.
 
-Potential Improvements
+## Potential Improvements
 
-    Add command-line arguments for flexible configuration.
+- Add command-line arguments for flexible configuration.
 
-    Extend Wikipedia scraping to extract more structured data.
+- Extend Wikipedia scraping to extract more structured data.
 
-    Implement logging and error handling with log files.
+- Implement logging and error handling with log files.
 
-    Use multi-threading or async requests for faster scraping.
+- Use multi-threading or async requests for faster scraping.
 
 
 
