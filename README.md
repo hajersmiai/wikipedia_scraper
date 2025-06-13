@@ -28,7 +28,6 @@ This repository includes **two versions** of the scraper for learning purposes:
 You can run either version depending on your preference for procedural or OOP style.
 
 ---
-
 ## Requirements
 
 - Python 3.7+
@@ -37,10 +36,11 @@ You can run either version depending on your preference for procedural or OOP st
 
 Install dependencies with:
 
-```bash
-pip install requests beautifulsoup4
+    pip install requests beautifulsoup4
+ 
+---
 
-## How to Use
+# How to Use
 
 - Clone or download this repository.
 
@@ -100,6 +100,4 @@ pip install requests beautifulsoup4
 - Implement logging and error handling with log files.
 
 - Use multi-threading or async requests for faster scraping.
-
-
 
